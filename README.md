@@ -1,10 +1,22 @@
 # poc_angular_spa_form
-just a space to test AI-driven frontend code based on GC design components
+Just a space to test AI-driven frontend code based on GC design components
 
 
+### Set up
+It is a lightweight containerized single-page application, you can run this anywhere in Docker / any containerized environments.
+
+Docker Desktop for windows:
+https://docs.docker.com/desktop/install/windows-install/
 
 
-Logs:
+Assuming the prerequisite environment is set up correctly, all you need to run once you download this repository is
+```
+docker-compose up
+```
+
+The app will be on `http://localhost:8080/`
+
+### Logs
 
 Me
 ```
