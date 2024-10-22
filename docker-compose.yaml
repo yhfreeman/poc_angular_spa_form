@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  frontend:
+    container_name: my-angular-app
+    build:
+      context: ./my-angular-app
+    restart: always
+    ports:
+      - "8080:80"
+    volumes:
+     - ./my-angular-app/nginx.conf:/opt/app-root/etc/nginx.default.d/default.conf
