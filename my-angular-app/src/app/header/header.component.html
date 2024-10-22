@@ -1,0 +1,34 @@
+<gcds-header 
+  signature-variant="colour" 
+  lang="en" 
+  lang-href="/fr" 
+  skip-to-href="#main-content"
+  signature-has-link="true"
+>
+  <!-- Skip Navigation Link -->
+  <a slot="skip-to-nav" href="#main-content">Skip to main content</a>
+
+  <!-- Title for the Header -->
+  <h1 slot="banner" class="header-title">Next Gen Portal</h1>
+
+  <!-- Language Toggle -->
+  <div slot="toggle">
+    <a href="/fr">Français</a>
+  </div>
+
+  <!-- Optional Menu -->
+  <nav slot="menu" aria-label="Main Menu">
+    <ul>
+      <li><a href="/dashboard">Dashboard</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Optional Search Form -->
+  <form slot="search" action="/search" method="GET">
+    <label for="search-box" class="visually-hidden">Search</label>
+    <input id="search-box" name="q" type="text" placeholder="Search the portal" />
+    <button type="submit">Search</button>
+  </form>
+</gcds-header>
